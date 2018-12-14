@@ -1,0 +1,100 @@
+﻿html, body {
+	height: 100%;
+	width: 100%;
+}
+#home {
+	background: url('img/blue.jpg') no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+#project {
+	background: url('img/code1.png') no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+#exp {
+	background: url('img/code1.png') no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+#qual {
+	background: url('img/code1.png') no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text-project {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text-project h1 {
+	font-size: 500%;
+	font-weight: 700;
+	color: rgb(224, 185, 57);
+}
+.landing-text-experience {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text-experience h1 {
+	font-size: 500%;
+	font-weight: 700;
+	color: rgb(224, 185, 57);
+}
+footer {
+	width: 100%;
+	background-color: #23415c;
+	padding: 5% 5%;
+	color: #FFF;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
